@@ -20,22 +20,22 @@
 		<code value="LLL"/>
 	</codeset>
 	<group name="attestation reason">
-		<concept id="240" rubric="signed"/>
-		<concept id="648" rubric="witnessed"/>
+		<concept id="240" rubric="getekend"/>
+		<concept id="648" rubric="getuige geweest van"/>
 	</group>
 	<group name="audit change type">
-		<concept id="249" rubric="creation"/>
-		<concept id="250" rubric="amendment"/>
-		<concept id="251" rubric="modification"/>
-		<concept id="252" rubric="synthesis"/>
-		<concept id="523" rubric="deleted"/>
-		<concept id="666" rubric="attestation"/>
-		<concept id="253" rubric="unknown"/>
+		<concept id="249" rubric="creatie"/>
+		<concept id="250" rubric="toevoeging"/>
+		<concept id="251" rubric="aanpassing"/>
+		<concept id="252" rubric="samenvoeging"/>
+		<concept id="523" rubric="verwijderd"/>
+		<concept id="666" rubric="getuigenis"/>
+		<concept id="253" rubric="onbekend"/>
 	</group>
 	<group name="composition category">
-		<concept id="431" rubric="persistent"/>
-		<concept id="435" rubric="episodic"/>
-		<concept id="433" rubric="event"/>
+		<concept id="431" rubric="blijvend"/>
+		<concept id="435" rubric="episodisch"/>
+		<concept id="433" rubric="gebeurtenis"/>
 	</group>
 	<!--
 	<group name="MultiMedia">
@@ -82,12 +82,12 @@
 		<concept id="426" rubric="image/gif" />
 		<concept id="427" rubric="image/png" />
 		<concept id="428" rubric="image/tiff" />
-		<concept id="517" rubric="application/msword" />
-		<concept id="518" rubric="application/pdf" />
-		<concept id="519" rubric="application/rtf" />
-		<concept id="637" rubric="application/dicom" />
-		<concept id="682" rubric="application/vnd.oasis.opendocument.text" />
-		<concept id="683" rubric="application/vnd.openxmlformats-officedocument.wordprocessingml.document" />
+		<concept id="517" rubric="applicatie/msword" />
+		<concept id="518" rubric="applicatie/pdf" />
+		<concept id="519" rubric="applicatie/rtf" />
+		<concept id="637" rubric="applicatie/dicom" />
+		<concept id="682" rubric="applicatie/vnd.oasis.opendocument.text" />
+		<concept id="683" rubric="applicatie/vnd.openxmlformats-officedocument.wordprocessingml.document" />
 	</group>
 	-->
 	<group name="property">
@@ -218,108 +218,108 @@
 		<concept id="220" rubric="fysiek op afstand"/>
 	</group>
 	<group name="instruction states">
-		<concept id="524" rubric="initial"/>
-		<concept id="526" rubric="planned"/>
-		<concept id="527" rubric="postponed"/>
-		<concept id="528" rubric="cancelled"/>
-		<concept id="529" rubric="scheduled"/>
-		<concept id="245" rubric="active"/>
-		<concept id="530" rubric="suspended"/>
-		<concept id="531" rubric="aborted"/>
-		<concept id="532" rubric="completed"/>
-		<concept id="533" rubric="expired"/>
+		<concept id="524" rubric="initieel"/>
+		<concept id="526" rubric="gepland"/>
+		<concept id="527" rubric="uitgesteld"/>
+		<concept id="528" rubric="geannuleerd"/>
+		<concept id="529" rubric="ingepland"/>
+		<concept id="245" rubric="actief"/>
+		<concept id="530" rubric="gepauzeerd"/>
+		<concept id="531" rubric="gestaakt"/>
+		<concept id="532" rubric="gedaan"/>
+		<concept id="533" rubric="verlopen"/>
 	</group>
 	<group name="instruction transitions">
-		<concept id="535" rubric="initiate"/>
-		<concept id="536" rubric="plan step"/>
-		<concept id="537" rubric="postpone"/>
-		<concept id="538" rubric="restore"/>
-		<concept id="166" rubric="cancel"/>
-		<concept id="542" rubric="postponed step"/>
-		<concept id="539" rubric="schedule"/>
-		<concept id="534" rubric="scheduled step"/>	
+		<concept id="535" rubric="beginnen"/>
+		<concept id="536" rubric="plan stap"/>
+		<concept id="537" rubric="uitstellen"/>
+		<concept id="538" rubric="herstellen"/>
+		<concept id="166" rubric="annuleren"/>
+		<concept id="542" rubric="uitgestelde stap"/>
+		<concept id="539" rubric="plan"/>
+		<concept id="534" rubric="plan stap"/>	
 		<concept id="540" rubric="start"/>
-		<concept id="541" rubric="do"/>
-		<concept id="543" rubric="active step"/>
-		<concept id="544" rubric="suspend"/>
-		<concept id="545" rubric="suspended step"/>
-		<concept id="546" rubric="resume"/>
-		<concept id="547" rubric="abort"/>
-		<concept id="548" rubric="finish"/>
+		<concept id="541" rubric="uitvoeren"/>
+		<concept id="543" rubric="actieve stap"/>
+		<concept id="544" rubric="pauzeren"/>
+		<concept id="545" rubric="gepauzeerde stap"/>
+		<concept id="546" rubric="hervatten"/>
+		<concept id="547" rubric="staken"/>
+		<concept id="548" rubric="afronden"/>
 		<concept id="549" rubric="time out"/>
-		<concept id="550" rubric="notify aborted"/>
-		<concept id="551" rubric="notify completed"/>
-		<concept id="552" rubric="notify cancelled"/>
+		<concept id="550" rubric="notificeer afgeblazen"/>
+		<concept id="551" rubric="notificeer afgerond"/>
+		<concept id="552" rubric="notificeer geannuleerd"/>
 	</group>
 	<group name="subject relationship">
-		<concept id="0" rubric="self"/>
+		<concept id="0" rubric="zel"/>
 		<concept id="3" rubric="foetus"/>
-		<concept id="10" rubric="mother"/>
-		<concept id="9" rubric="father"/>
+		<concept id="10" rubric="moeder"/>
+		<concept id="9" rubric="vader"/>
 		<concept id="6" rubric="donor"/>
-		<concept id="253" rubric="unknown"/>
-		<concept id="261" rubric="adopted daughter"/>
-		<concept id="260" rubric="adopted son"/>
-		<concept id="259" rubric="adoptive father"/>
-		<concept id="258" rubric="adoptive mother"/>
-		<concept id="256" rubric="biological father"/>
-		<concept id="255" rubric="biological mother"/>
-		<concept id="23" rubric="brother"/>
-		<concept id="28" rubric="child"/>
-		<concept id="265" rubric="cohabitee"/>
-		<concept id="257" rubric="cousin"/>
-		<concept id="29" rubric="daughter"/>
-		<concept id="264" rubric="guardian"/>
-		<concept id="39" rubric="maternal aunt"/>
-		<concept id="8" rubric="maternal grandfather"/>
-		<concept id="7" rubric="maternal grandmother"/>
-		<concept id="38" rubric="maternal uncle"/>
-		<concept id="189" rubric="neonate"/>
-		<concept id="254" rubric="parent"/>
-		<concept id="22" rubric="partner/spouse"/>
-		<concept id="41" rubric="paternal aunt"/>
-		<concept id="36" rubric="paternal grandfather"/>
-		<concept id="37" rubric="paternal grandmother"/>
-		<concept id="40" rubric="paternal uncle"/>
-		<concept id="27" rubric="sibling"/>
-		<concept id="24" rubric="sister"/>
-		<concept id="31" rubric="son"/>
-		<concept id="263" rubric="step father"/>
-		<concept id="262" rubric="step mother"/>
-		<concept id="25" rubric="step or half brother"/>
-		<concept id="26" rubric="step or half sister"/>
+		<concept id="253" rubric="onbekend"/>
+		<concept id="261" rubric="geadopteerde dochter"/>
+		<concept id="260" rubric="geadopteerde zoon"/>
+		<concept id="259" rubric="adoptie vader"/>
+		<concept id="258" rubric="adoptie moeder"/>
+		<concept id="256" rubric="biologische vader"/>
+		<concept id="255" rubric="biologische moeder"/>
+		<concept id="23" rubric="broer"/>
+		<concept id="28" rubric="kind"/>
+		<concept id="265" rubric="samenwonende"/>
+		<concept id="257" rubric="neef/nicht"/>
+		<concept id="29" rubric="dochter"/>
+		<concept id="264" rubric="voogd"/>
+		<concept id="39" rubric="tante (moeders zijde)"/>
+		<concept id="8" rubric="opa (moeders zijde)"/>
+		<concept id="7" rubric="oma (moeders zijde"/>
+		<concept id="38" rubric="oom (moeders zijde)"/>
+		<concept id="189" rubric="neonaat"/>
+		<concept id="254" rubric="ouder"/>
+		<concept id="22" rubric="partner/echtgenoot"/>
+		<concept id="41" rubric="tante (vaders zijde)"/>
+		<concept id="36" rubric="opa (vaders zijde)"/>
+		<concept id="37" rubric="oma (vaders zijde)"/>
+		<concept id="40" rubric="oom (vaders zijde)"/>
+		<concept id="27" rubric="broer/zus"/>
+		<concept id="24" rubric="zus"/>
+		<concept id="31" rubric="zoon"/>
+		<concept id="263" rubric="stiefvader"/>
+		<concept id="262" rubric="stiefmoeder"/>
+		<concept id="25" rubric="stief- of halfbroer"/>
+		<concept id="26" rubric="stief- of halfzus"/>
 	</group>
 	<group name="term mapping purpose">
-		<concept id="669" rubric="public health"/>
-		<concept id="670" rubric="reimbursement"/>
-		<concept id="671" rubric="research study"/>
+		<concept id="669" rubric="volksgezondheid	"/>
+		<concept id="670" rubric="vergoeding"/>
+		<concept id="671" rubric="onderzoeksstudie"/>
 	</group>
 	<group name="event math function">
 		<concept id="145" rubric="minimum"/>
 		<concept id="144" rubric="maximum"/>
-		<concept id="267" rubric="mode"/>
-		<concept id="268" rubric="median"/>
-		<concept id="146" rubric="mean"/>
-		<concept id="147" rubric="change"/>
-		<concept id="148" rubric="total"/>
-		<concept id="149" rubric="variation"/>
-		<concept id="521" rubric="decrease"/>
-		<concept id="522" rubric="increase"/>
-		<concept id="640" rubric="actual"/>
+		<concept id="267" rubric="modus"/>
+		<concept id="268" rubric="mediaan"/>
+		<concept id="146" rubric="gemiddelde"/>
+		<concept id="147" rubric="verandering"/>
+		<concept id="148" rubric="totaal"/>
+		<concept id="149" rubric="variatie"/>
+		<concept id="521" rubric="afnemen"/>
+		<concept id="522" rubric="toenemen"/>
+		<concept id="640" rubric="werkelijk"/>
 	</group>
 	<group name="setting">
-		<concept id="225" rubric="home"/>
-		<concept id="227" rubric="emergency care"/>
-		<concept id="228" rubric="primary medical care"/>
-		<concept id="229" rubric="primary nursing care"/>
-		<concept id="230" rubric="primary allied health care"/>
-		<concept id="231" rubric="midwifery care"/>
-		<concept id="232" rubric="secondary medical care"/>
-		<concept id="233" rubric="secondary nursing care"/>
-		<concept id="234" rubric="secondary allied health care"/>
-		<concept id="235" rubric="complementary health care"/>
-		<concept id="236" rubric="dental care"/>
-		<concept id="237" rubric="nursing home care"/>
-		<concept id="238" rubric="other care"/>
+		<concept id="225" rubric="huis"/>
+		<concept id="227" rubric="spoedeisende hulp"/>
+		<concept id="228" rubric="eerstelijns gezondheidszorg"/>
+		<concept id="229" rubric="eerstelijns verpleegzorg"/>
+		<concept id="230" rubric="eerstelijns paramedische zorg"/>
+		<concept id="231" rubric="verloskundige zorg"/>
+		<concept id="232" rubric="tweedelijns medische zorg"/>
+		<concept id="233" rubric="tweedelijns verpleeg zorg"/>
+		<concept id="234" rubric="tweedelijns paramedische zorg"/>
+		<concept id="235" rubric="complementaire gezondheidszorg"/>
+		<concept id="236" rubric="tanheelkundige zorg"/>
+		<concept id="237" rubric="verpleeghuiszorg"/>
+		<concept id="238" rubric="overige zorg"/>
 	</group>
 </terminology>
